@@ -45,29 +45,30 @@ a {
 
 ul {
   list-style-type: none;
-  margin: 0px;
-  border: 0px;
+  margin:0px;
+  padding: 0px;
 }
 
 .header {
-  display:flex;
-  align-items: center;
+  display: flex;
   justify-content: space-between;
-  padding: 0px 16px;
-}
+  align-items: center;
+ }
 .links {
   display: flex;
-  gap:8px;
-  margin:0;
-  padding:0;
+  gap: 16px;
 }
 
-button {
-  flex-shrink: 0;
-}
-.lewy,.prawy
-{
-  display: flex;
-  gap:8px;
+.lewo {
+  margin-left: 8px;
+  justify-content: flex-start;
   align-items: center;
+  display: flex;
+  gap:16px;
+}
+.prawo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-right: 8px;
 }
