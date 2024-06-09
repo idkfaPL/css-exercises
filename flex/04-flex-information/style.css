@@ -24,3 +24,22 @@ img {
   justify-content: center;
   background: #eee;
 }
+.title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+   
+}
+.roslinki {
+  display: flex;
+  justify-content: center;
+  gap:52px;
+}
+.roslina {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+ }
