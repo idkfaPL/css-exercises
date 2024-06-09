@@ -1,11 +1,7 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  display: flex;
-  flex:1 1 auto;
-  justify-content: space-between;
-  align-items: center;
- }
+}
 
 .logo {
   font-size: 48px;
@@ -17,14 +13,8 @@
 
 ul {
   /* this removes the dots on the list items*/
-  display: flex;
-  flex: 1;
-  align-items: center;
-  gap: 10px;
   list-style-type: none;
-  border: 0px;
-  padding: 15px;
-  }
+}
 
 a {
   font-size: 22px;
@@ -33,3 +23,17 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+ padding: 8px;
+ }
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap:8px;
+ }
