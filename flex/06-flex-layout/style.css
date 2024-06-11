@@ -14,7 +14,7 @@ img {
 button {
   font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 8px;
+  border-radius: 18px;
   background: #eee;
 }
 
@@ -23,4 +23,45 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.left-links,.right-links {
+  display: flex;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid green;
+  gap:10px;
+  background-color: gray;
+}
+
+.buttons {
+   padding:5px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
