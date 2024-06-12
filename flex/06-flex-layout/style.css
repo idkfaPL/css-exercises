@@ -29,7 +29,7 @@ ul {
 }
 a {
   text-decoration: none;
-  color: darkgray;
+  color: gray;
 }
 
 .header {
@@ -39,7 +39,7 @@ a {
 .left-links,.right-links {
   display: flex;
   gap: 10px;
-  margin-right: 10px;
+  margin-right: 25px;
 }
 
 .content {
@@ -47,17 +47,17 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap:10px;
 }
 .footer {
   display: flex;
   justify-content: space-between;
-  border: 1px solid green;
-  gap:10px;
-  background-color: gray;
+   gap:10px;
+  background-color: #eeeeee;
 }
 
-.buttons {
-   padding:5px;
+button {
+   padding:10px;
 }
 
 body {
