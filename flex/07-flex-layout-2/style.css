@@ -8,15 +8,21 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
 }
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 72px;
   background: #eee;
   color: darkmagenta;
 }
 
 .sidebar {
+  padding:16px;
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
@@ -26,4 +32,53 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.header {
+  display: flex;
+  font-size: 32px;
+  font-weight: 900;
+  align-items: center;
+  padding-left: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.kontener {
+  flex-grow: 1;
+  display: flex;
+  
+}
+.karty {
+  display: flex;
+  flex-wrap: wrap;
+  padding:48px;
+ 
+}
+.card {
+  display: flex;
+  flex-basis: 300px;
+  max-height: 400px;
+  margin: 20px;
+}
+ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+li {
+  font-size: 24px;
+  padding-bottom:16px;
+  border: 1px solid brown;
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.sidebar {
+  min-width: 300px;
 }
